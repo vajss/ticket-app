@@ -1,19 +1,18 @@
 
 const d1 = subtractTime( new Date(), 4, 10);
-document.getElementById("date1").innerText = formatDate(d1);
-document.getElementById("divider1").innerText = formatDividerDate(d1);
+document.getElementById("date1").innerText = formatDate(subtractTime( new Date(), 3, -82));
+document.getElementById("divider1").innerText = formatDividerDate(subtractTime( new Date(), 3, -8));
 
 const d2 = subtractTime( new Date(), 3, 10);
-document.getElementById("date2").innerText = formatDate(d2);
-document.getElementById("divider2").innerText = formatDividerDate(d2);
+document.getElementById("date2").innerText = formatDate(subtractTime( new Date(), 2, -91));
+document.getElementById("divider2").innerText = formatDividerDate(subtractTime( new Date(), 2, 9));
 
 const d3 = subtractTime( new Date(), 1, 12);
-document.getElementById("date3").innerText = formatDate(d3);
-document.getElementById("divider3").innerText = formatDividerDate(d3);
+document.getElementById("date3").innerText = formatDate(subtractTime( new Date(), 1, -83));
+document.getElementById("divider3").innerText = formatDividerDate(subtractTime( new Date(), 1, 7));
 
-const d4 = subtractTime( new Date(), 0, 5);
-document.getElementById("date4").innerText = formatDate(d4);
-document.getElementById("divider4").innerText = formatDividerTodayDate(d4);
+document.getElementById("date4").innerText = formatDate(subtractTime( new Date(), 0, -85));
+document.getElementById("divider4").innerText = formatDividerTodayDate(subtractTime( new Date(), 0, 5));
 
 
 function formatDividerTodayDate(date) {
