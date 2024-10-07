@@ -103,10 +103,7 @@
       </div>
     </div>
     <div class="main">
-      <div id="divider1" class="divider">
-        <!-- TODO dynamic -->
-        8:53
-      </div>
+      <div id="divider1" class="divider">8:53</div>
       <div class="outgoing">A90</div>
       <div class="incoming">
         <span>
@@ -116,10 +113,9 @@
           koja vazi do
           <span id="date1" class="underline"> 07.10.2024 10:54:19. </span>
         </span>
-        <!-- TODO broj karte da se dinamicki generise -->
         <span>
           Karta broj:
-          <span id="ticketNumber" class="underline">0024044147</span>.
+          <span id="ticketNumber1" class="underline">0024044147</span>.
         </span>
         <span>
           Placanjem operatoru izmirujete dugovanja za ovu kartu prema JKP
@@ -127,10 +123,7 @@
         </span>
       </div>
       <!-- ################################### -->
-      <div id="divider2" class="divider">
-        <!-- TODO dynamic -->
-        8:53
-      </div>
+      <div id="divider2" class="divider">8:53</div>
       <div class="outgoing">A90</div>
       <div class="incoming">
         <span>
@@ -140,10 +133,9 @@
           koja vazi do
           <span id="date2" class="underline"> 07.10.2024 10:54:19. </span>
         </span>
-        <!-- TODO broj karte da se dinamicki generise -->
         <span>
           Karta broj:
-          <span id="ticketNumber" class="underline">0024044147</span>.
+          <span id="ticketNumber2" class="underline">0024044147</span>.
         </span>
         <span>
           Placanjem operatoru izmirujete dugovanja za ovu kartu prema JKP
@@ -151,10 +143,7 @@
         </span>
       </div>
       <!-- ################################### -->
-      <div id="divider3" class="divider">
-        <!-- TODO dynamic -->
-        8:53
-      </div>
+      <div id="divider3" class="divider">8:53</div>
       <div class="outgoing">A90</div>
       <div class="incoming">
         <span>
@@ -164,10 +153,9 @@
           koja vazi do
           <span id="date3" class="underline"> 07.10.2024 10:54:19. </span>
         </span>
-        <!-- TODO broj karte da se dinamicki generise -->
         <span>
           Karta broj:
-          <span id="ticketNumber" class="underline">0024044147</span>.
+          <span id="ticketNumber3" class="underline">0024044147</span>.
         </span>
         <span>
           Placanjem operatoru izmirujete dugovanja za ovu kartu prema JKP
@@ -175,10 +163,7 @@
         </span>
       </div>
       <!-- ################################### -->
-      <div id="divider4" class="divider">
-        <!-- TODO dynamic -->
-        8:53
-      </div>
+      <div id="divider4" class="divider">8:53</div>
       <div class="outgoing">A90</div>
       <div class="incoming">
         <span>
@@ -188,10 +173,9 @@
           koja vazi do
           <span id="date4" class="underline"> 07.10.2024 10:54:19. </span>
         </span>
-        <!-- TODO broj karte da se dinamicki generise -->
         <span>
           Karta broj:
-          <span id="ticketNumber" class="underline">0024044147</span>.
+          <span id="ticketNumber4" class="underline">0024044147</span>.
         </span>
         <span>
           Placanjem operatoru izmirujete dugovanja za ovu kartu prema JKP
@@ -331,67 +315,5 @@
       </div>
     </div>
     <script src="app.js"></script>
-
-    <!-- <script>
-      // Create a "close" button and append it to each list item
-      var myNodelist = document.getElementsByTagName("LI");
-      var i;
-      for (i = 0; i < myNodelist.length; i++) {
-        var span = document.createElement("SPAN");
-        var txt = document.createTextNode("\u00D7");
-        span.className = "close";
-        span.appendChild(txt);
-        myNodelist[i].appendChild(span);
-      }
-
-      // Click on a close button to hide the current list item
-      var close = document.getElementsByClassName("close");
-      var i;
-      for (i = 0; i < close.length; i++) {
-        close[i].onclick = function () {
-          var div = this.parentElement;
-          div.style.display = "none";
-        };
-      }
-
-      // Add a "checked" symbol when clicking on a list item
-      var list = document.querySelector("ul");
-      list.addEventListener(
-        "click",
-        function (ev) {
-          if (ev.target.tagName === "LI") {
-            ev.target.classList.toggle("checked");
-          }
-        },
-        false
-      );
-
-      // Create a new list item when clicking on the "Add" button
-      function newElement() {
-        var li = document.createElement("li");
-        var inputValue = document.getElementById("myInput").value;
-        var t = document.createTextNode(inputValue);
-        li.appendChild(t);
-        if (inputValue === "") {
-          alert("You must write something!");
-        } else {
-          document.getElementById("myUL").appendChild(li);
-        }
-        document.getElementById("myInput").value = "";
-
-        var span = document.createElement("SPAN");
-        var txt = document.createTextNode("\u00D7");
-        span.className = "close";
-        span.appendChild(txt);
-        li.appendChild(span);
-
-        for (i = 0; i < close.length; i++) {
-          close[i].onclick = function () {
-            var div = this.parentElement;
-            div.style.display = "none";
-          };
-        }
-      }
-    </script> -->
   </body>
 </html>

@@ -1,19 +1,19 @@
-
-const d1 = subtractTime( new Date(), 4, 10);
+document.getElementById("ticketNumber1").innerText = "00" + Math.floor((subtractTime( new Date(), 2, -91).getTime() / 1000) / 67.84);
 document.getElementById("date1").innerText = formatDate(subtractTime( new Date(), 3, -82));
 document.getElementById("divider1").innerText = formatDividerDate(subtractTime( new Date(), 3, -8));
 
-const d2 = subtractTime( new Date(), 3, 10);
+document.getElementById("ticketNumber2").innerText = "00" + Math.floor((subtractTime( new Date(), 2, -91).getTime() / 1000) / 67.84);
 document.getElementById("date2").innerText = formatDate(subtractTime( new Date(), 2, -91));
 document.getElementById("divider2").innerText = formatDividerDate(subtractTime( new Date(), 2, 9));
 
-const d3 = subtractTime( new Date(), 1, 12);
-document.getElementById("date3").innerText = formatDate(subtractTime( new Date(), 1, -83));
-document.getElementById("divider3").innerText = formatDividerDate(subtractTime( new Date(), 1, 7));
+document.getElementById("ticketNumber3").innerText = "00" + (Math.floor((subtractTime( new Date(), 1, -83).getTime() / 1000) / 67.84) + 1);
+document.getElementById("date3").innerText = formatDate(subtractTime( new Date(), 1, -91));
+document.getElementById("divider3").innerText = formatDividerDate(subtractTime( new Date(), 1, 9));
 
+// TODO check in more detail 67.84 constant
+document.getElementById("ticketNumber4").innerText = "00" + Math.floor(((new Date()).getTime() / 1000) / 67.84);
 document.getElementById("date4").innerText = formatDate(subtractTime( new Date(), 0, -85));
 document.getElementById("divider4").innerText = formatDividerTodayDate(subtractTime( new Date(), 0, 5));
-
 
 function formatDividerTodayDate(date) {
     let hours = String(date.getHours()).padStart(2, '0');
