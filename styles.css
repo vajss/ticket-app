@@ -13,10 +13,10 @@ body {
   background-color: #1f1f1f;
   position: sticky;
   top: 0;
-  height: 76px;
+  height: 58px;
   align-items: center;
   padding: 0 10px;
-  font-size: 20px;
+  font-size: 18px;
 
   .right {
     display: flex;
@@ -24,12 +24,16 @@ body {
     gap: 20px;
 
     .avatar {
-      width: 22px;
-      height: 22px;
+      width: 16px;
+      height: 16px;
       background-color: #5db873;
       padding: 10px;
       border-radius: 30px;
     }
+  }
+
+  .arrow {
+    height: 24px;
   }
 }
 
